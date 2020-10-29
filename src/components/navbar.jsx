@@ -5,9 +5,11 @@ const NavBar = ({ totalCounters }) => {
     <nav className="navbar navbar-light bg-light">
       <a className="navbar-brand" href="#">
         Navbar
-        <span className="badge badge-pill badge-secondary">
-          {totalCounters}
-        </span>
+        <div>
+          <span className="badge badge-pill badge-secondary">
+            {totalCounters}
+          </span>
+        </div>
       </a>
     </nav>
   );
